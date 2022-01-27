@@ -42,13 +42,14 @@
       height: 100%;
       justify-content: center;
       flex-direction: column;
+      
 
       @include respond(phone) {
         align-items: center;
       }
 
       &-text {
-        text-align: left;
+        text-align: justify;
 
         @include respond(tab-port) {
           font-size: 1.5rem;
