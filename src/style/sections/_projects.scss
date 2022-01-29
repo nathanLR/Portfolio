@@ -47,7 +47,11 @@
       & p > a {
         color: $secondary-color;
       }
+      p{
+        text-align: justify;
+      }
     }
+    
 
     &__image {
       width: 90%;
